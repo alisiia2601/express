@@ -12,7 +12,7 @@ app.get('/', (req, res) => {
   res.send('Hello!');
 });
 
-app.use('/movies', authentication); // Apply authentication middleware only to '/movies' route
+app.use('/movies', authentication); 
 app.use('/movies', moviesRouter);
 
 app.listen(port, () => {
