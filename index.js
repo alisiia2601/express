@@ -1,7 +1,6 @@
 const express = require('express');
 const moviesRouter = require('./routes/movies');
 const authentication = require('./apiKey');
-const addApiKey = require('./apiKey');
 
 const app = express();
 const port = 3000;
